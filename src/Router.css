@@ -125,3 +125,10 @@ body::before {
         transform: translateY(0);
     }
 }
+
+
+@media (max-width:746px) {
+    .container{
+      width: 350px;
+    }
+  }
