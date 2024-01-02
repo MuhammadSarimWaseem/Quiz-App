@@ -68,7 +68,7 @@ h1 {
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition: 0.2s;
-    width: 100px;
+    width: 105px;
     bottom: 15px;
     animation: fadeIn 1s ease-in-out, pulse 1s infinite ease-in-out;
     margin-top: 20px;
