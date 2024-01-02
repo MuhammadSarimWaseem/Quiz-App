@@ -190,3 +190,9 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width:746px) {
+  .container{
+    width: 350px;
+  }
+}
