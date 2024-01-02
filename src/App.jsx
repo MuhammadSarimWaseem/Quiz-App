@@ -1,6 +1,6 @@
 import React from 'react';
 import RouterOfRoute from './Router';
-import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import JavaScript from './JavaScriptComponent/Quiz';
 import Python from './PythonComponent/Quiz';
 import Java from './JavaComponent/Quiz';

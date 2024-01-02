@@ -39,7 +39,6 @@ function Sql() {
 
   return (
     <Fragment>
-
       {result ? (
         <FinalScore score={score} TotalScore={QuizData.length} TryAgain={ResetAll} />
       ) : (
@@ -59,12 +58,10 @@ function Sql() {
             </div>
             <button onClick={PreviousQuestion} className='previous-button' id='previous-button'>Previous</button><br />
             <button onClick={NextQuestion} className='next-button' id='next-button'>Next</button>
-            
           </div>
         </div>
       )}
     </Fragment>
-
   );
 }
 
