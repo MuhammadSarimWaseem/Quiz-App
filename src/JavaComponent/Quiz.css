@@ -190,12 +190,12 @@ body {
   }
 }
 
-@media (max-width:746px) {
+@media (max-width:546px) {
   body {
     min-height: 100vh;
   }
 
   .container {
-    width: 350px;
+    width: 300px;
   }
 }

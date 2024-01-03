@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import RouterOfRoute from './Router';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import JavaScript from './JavaScriptComponent/Quiz';
@@ -6,9 +6,12 @@ import Python from './PythonComponent/Quiz';
 import Java from './JavaComponent/Quiz';
 import Php from './PhpComponent/Quiz';
 import Sql from './SqlComponent/Quiz';
+import Header from './Header/Header';
 
 function App() {
   return (
+    <Fragment>
+    <Header></Header>
     <BrowserRouter>
       <Routes>
         <Route path='/*' element={<RouterOfRoute />} />
@@ -19,6 +22,7 @@ function App() {
         <Route path='/SqlComponent/Quiz' element={<Sql />} />
       </Routes>
     </BrowserRouter>
+    </Fragment>
   )
 }
 
