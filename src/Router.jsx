@@ -31,7 +31,7 @@ function RouterOfRoute() {
 
   return (
     <div className='container'>
-      <h1>❓ QUIZ APP ❓</h1>
+      <h1>🧠 QUIZ APP 🧠</h1>
       <button className='btn' onClick={goToJavaScript}>JavaScript</button>
       <button className='btn' onClick={goToPython}>Python</button>
       <button className='btn' onClick={goToJava}>Java</button>
