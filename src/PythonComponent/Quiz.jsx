@@ -43,7 +43,7 @@ function Python() {
         <FinalScore score={score} TotalScore={QuizData.length} TryAgain={ResetAll} />
       ) : (
         <div>
-          <h1 className='heading-txt'>❓ PYTHON ❓</h1>
+          <h1 className='heading-txt'> PYTHON </h1>
           <div className='container'>
             <div className='question'>
               <span>{currentQuestion + 1}: </span>

@@ -43,7 +43,7 @@ function JavaScript() {
         <FinalScore score={score} TotalScore={QuizData.length} TryAgain={ResetAll} />
       ) : (
         <div>
-          <h1 className='heading-txt'>❓ JavaScript ❓</h1>
+          <h1 className='heading-txt'> JavaScript </h1>
           <div className='container'>
             <div className='question'>
               <span>{currentQuestion + 1}: </span>
