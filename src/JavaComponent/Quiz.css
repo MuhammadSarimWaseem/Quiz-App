@@ -31,6 +31,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -96,31 +97,34 @@ body {
   min-height: 30px;
   background-color: white;
   animation: fadeIn 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .checked {
-  background-color: rgb(179, 83, 179);
+  background-color: #3d4859;
   color: white;
-  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+  box-shadow: 3px 3px 4px 1px #3d4859;
+  cursor: pointer;
 }
 
 .option-btn:hover {
-  background-color: rgb(212, 118, 212);
+  background-color: #3d4859;
   color: white;
 }
 
 #next-button {
   padding: 10px;
   border: none;
-  background-color: #c88ff3;
-  color: white;
+  background-color: #3d4859;
+  color: #fff;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   font-size: larger;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: 0.2s;
   width: 100px;
+  cursor: pointer;
   bottom: 15px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -132,10 +136,10 @@ body {
 #previous-button {
   padding: 10px;
   border: none;
-  background-color: #c88ff3;
-  color: white;
+  background-color: #3d4859;
+  color: #fff;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   font-size: larger;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -143,6 +147,7 @@ body {
   width: 100px;
   bottom: 15px;
   animation: fadeIn 1s ease-in-out;
+  cursor: pointer;
 }
 
 #previous-button:active {
@@ -161,16 +166,17 @@ body {
 .try-again {
   padding: 10px;
   border: none;
-  background-color: #c88ff3;
-  color: white;
+  background-color: #3d4859;
+  color: #fff;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   font-size: large;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: 0.2s;
   width: 150px;
   bottom: 15px;
+  cursor: pointer;
   animation: fadeIn 1s ease-in-out;
 }
 
