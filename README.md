@@ -1,3 +1,7 @@
+# Project Description
+
+ An engaging Quiz App with React and React Router, offering a dynamic user experience through seamless navigation and interactive quizzes for an immersive learning or entertainment platform.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
