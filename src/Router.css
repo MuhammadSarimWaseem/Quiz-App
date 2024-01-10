@@ -71,7 +71,7 @@ body::before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(45deg, #3d4859, #2f3b4d, #222c3a, #3d4859);
+    background: linear-gradient(45deg, #c5ccd6, #2f3b4d, #222c3a, #c5ccd6);
     opacity: 0.8;
     animation: gradientAnimation 15s infinite alternate;
 }
